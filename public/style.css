@@ -77,14 +77,10 @@ input:focus::selection {
     align-items: center;
     text-decoration: none;
     transition-duration: 0.5s;
-    transform: translateX(10%);
     /* margin: 20px; */
 }
 
 
-.header a:hover {
-    transform: translateX(0);
-}
 
 .header a:hover img {
     opacity: 1;
@@ -98,4 +94,25 @@ input:focus::selection {
 .header h1 {
     width: 100%;
 
+}
+
+#posts {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.post {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.457);
+    transition-duration: .5s;
+    color: white;
+    width: 300px;
 }

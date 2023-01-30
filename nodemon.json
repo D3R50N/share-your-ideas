@@ -1,6 +1,7 @@
 {
     "delay" : 3000, 
     "ignore" : [
-        "./views/"
+        "./views/",
+        "./public/"
     ]
 }
